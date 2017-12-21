@@ -13,6 +13,10 @@
 		224C27DA1FE0D7D20000672A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224C27D91FE0D7D20000672A /* Assets.xcassets */; };
 		224C27DD1FE0D7D20000672A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224C27DB1FE0D7D20000672A /* LaunchScreen.storyboard */; };
 		224C27E01FE0D7D20000672A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C27DF1FE0D7D20000672A /* main.m */; };
+		224C27E81FE0D7F50000672A /* JSCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C27E71FE0D7F50000672A /* JSCTViewController.m */; };
+		224C27EB1FE0DA2B0000672A /* JSMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C27EA1FE0DA2B0000672A /* JSMenuViewController.m */; };
+		224C27EE1FE0DC1F0000672A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C27ED1FE0DC1F0000672A /* FirstViewController.m */; };
+		224C27F11FE0DC290000672A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224C27F01FE0DC290000672A /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		224C27DC1FE0D7D20000672A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		224C27DE1FE0D7D20000672A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		224C27DF1FE0D7D20000672A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		224C27E61FE0D7F50000672A /* JSCTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCTViewController.h; sourceTree = "<group>"; };
+		224C27E71FE0D7F50000672A /* JSCTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCTViewController.m; sourceTree = "<group>"; };
+		224C27E91FE0DA2B0000672A /* JSMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSMenuViewController.h; sourceTree = "<group>"; };
+		224C27EA1FE0DA2B0000672A /* JSMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSMenuViewController.m; sourceTree = "<group>"; };
+		224C27EC1FE0DC1F0000672A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		224C27ED1FE0DC1F0000672A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		224C27EF1FE0DC290000672A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		224C27F01FE0DC290000672A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,14 @@
 			children = (
 				224C27D01FE0D7D20000672A /* AppDelegate.h */,
 				224C27D11FE0D7D20000672A /* AppDelegate.m */,
+				224C27E61FE0D7F50000672A /* JSCTViewController.h */,
+				224C27E71FE0D7F50000672A /* JSCTViewController.m */,
+				224C27E91FE0DA2B0000672A /* JSMenuViewController.h */,
+				224C27EA1FE0DA2B0000672A /* JSMenuViewController.m */,
+				224C27EC1FE0DC1F0000672A /* FirstViewController.h */,
+				224C27ED1FE0DC1F0000672A /* FirstViewController.m */,
+				224C27EF1FE0DC290000672A /* SecondViewController.h */,
+				224C27F01FE0DC290000672A /* SecondViewController.m */,
 				224C27D31FE0D7D20000672A /* ViewController.h */,
 				224C27D41FE0D7D20000672A /* ViewController.m */,
 				224C27D61FE0D7D20000672A /* Main.storyboard */,
@@ -143,7 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				224C27D51FE0D7D20000672A /* ViewController.m in Sources */,
+				224C27EE1FE0DC1F0000672A /* FirstViewController.m in Sources */,
 				224C27E01FE0D7D20000672A /* main.m in Sources */,
+				224C27F11FE0DC290000672A /* SecondViewController.m in Sources */,
+				224C27E81FE0D7F50000672A /* JSCTViewController.m in Sources */,
+				224C27EB1FE0DA2B0000672A /* JSMenuViewController.m in Sources */,
 				224C27D21FE0D7D20000672A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

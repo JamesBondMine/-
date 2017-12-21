@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "JSCTViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    JSCTViewController * ct = [[JSCTViewController alloc]init];
+    [self.window setRootViewController:ct];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
